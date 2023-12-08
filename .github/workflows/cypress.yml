@@ -6,7 +6,7 @@ on:
     # Le format du cron est 'minutes hours day month day-of-'
   push:
     branches:
-      - allure
+      - develop
 
 jobs:
   generate-report:
