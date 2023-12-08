@@ -3,7 +3,6 @@ name: allure-report
 on:
   schedule:
     - cron: '*/10 * * * *'  # Planifier tous les jours à 12h20 UTC
-    # Le format du cron est 'minutes hours day month day-of-'
   push:
     branches:
       - develop
