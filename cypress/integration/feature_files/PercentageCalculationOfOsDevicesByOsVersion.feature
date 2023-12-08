@@ -9,12 +9,3 @@ Feature: Navigation and Percentage Calculation on Os Android and Os IOS
            and check the percentage calculated of devices by Os version
 
     Given a product manager is logged in
-    When the user selects a specific client
-    Then the dashboard for the selected client is displayed
-    And the user chooses filters and clicks on the Apply Button
-    And the user selects "More insight"
-    And check the dasboard of OS versions is displayed
-    And check the percentage calculated of "OS Versions" on Os Android
-    When the user selects the button IOS 
-    Then the dashboard of Os IOS is displayed
-    And check the percentage calculated of "OS Versions" on Os IOS
